@@ -13,7 +13,7 @@ scientific project reports. Nowadays, most scientists and employees are working 
 for appropriate time management and consize presentation of results about they work in progress. Such reports are helpful for collecting feedback, showcasing problems and discussing possible
 workarounds.
 
-Students are encouraged to sumbit their work in LaTeX. An example LaTeX file bundle is given ([LaTeX template](template.tex), [references in BibTex](sample.bib), [sample figure](ising.png), [resulting pdf](template.pdf)). You can easily prepare your document using online latex editors like overleaf or jupyterlab at [kooplex-edu](https://kooplex-edu.elte.hu/notebook/crrd9e-tudmodlab/lab). Working with latex on kooplex-edu requires activating TeX and LaTeX related Nbextensions. 
+Students are encouraged to sumbit their work in LaTeX. An example LaTeX file bundle is given ([LaTeX template](template.tex), [references in BibTex](sample.bib), [sample figure](ising.png), [resulting pdf](template.pdf)). You can easily prepare your document using online latex editors like overleaf or jupyterlab at [k8plex-edu](https://k8plex-edu.elte.hu/notebook/crrd9e-tudmodlab/lab). Working with latex on kooplex-edu requires activating TeX and LaTeX related Nbextensions. 
 
 At the end of the course, there will be a mini-conference from these presentations with time for thoughts and questions.
 
