@@ -223,21 +223,24 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 * Atomic physics
 
    * [Molecular Dynamics](../MolecularDynamics) project (Dávid Visontai)
-   * [hoomd_blue (not in 2022)](../hoomd_blue) project (István Csabai, Gábor Rácz)
+   * [hoomd_blue (not in 2023)](../hoomd_blue) project (István Csabai, Gábor Rácz)
 
 * Astrophysics
 
-   * [cosmology n body (not in 2022)](../cosmology_n_body) project (István Csabai, Gábor Rácz)
+   * [cosmology n body](../cosmology_n_body) project (István Csabai, Balázs Pál)
 
 * Hydrodynamics
 
-   * [hydrodynamics (not in 2022)](../hydrodynamics) project (István Csabai, András Biricz)
+   * [hydrodynamics (not in 2023)](../hydrodynamics) project (István Csabai, András Biricz)
 
 * Statistical Physics, Network science
 
-   * [networx (not in 2022)](../networx) project (Gergely Palla)
-   * [time evolving networks](../time_evolving_networks) project (Péter Pollner)
-   * [cellular automaton (not in 2022)](../cell_automata) project  (István Csabai, Péter Pollner)
+   * [signed networks (not in 2023)](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
+   * [key figures social network](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
+   * [collective motion](../collmot) project (Pedro Lacerda, Máté Nagy)
+   * [networx (not in 2023)](../networx) project (Gergely Palla)
+   * [time evolving networks (not in 2023)](../time_evolving_networks) project (Péter Pollner)
+   * [cellular automaton (not in 2023)](../cell_automata) project  (István Csabai, Péter Pollner)
 
 * Nuclear physics
 
@@ -245,14 +248,14 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 
 * Materials science
 
-   * [ML in materials science (not in 2022)](../sdddst) project (Gábor Péterffy, Péter Ispánovity)
+   * [ML in materials science (not in 2023)](../sdddst) project (Gábor Péterffy, Péter Ispánovity)
 
 * Particle physics
 
-   * [HiggsSimulation (not in 2022)](../HiggsSimulation/HiggsSimulation.md) project (Gabriella Pásztor)
+   * [HiggsSimulation (not in 2023)](../HiggsSimulation/HiggsSimulation.md) project (Gabriella Pásztor)
 
 * Solid state physics:
 
    * [pybinding](../pybinding) project (László Oroszlány)
-   * [quadratic optimization](../quadratic_optim.pdf) project (Péter Rakyta)
+   * [quadratic optimization](../quadratic_optim) project (Péter Rakyta)
 
