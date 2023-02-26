@@ -235,7 +235,7 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 
 * Statistical Physics, Network science
 
-   * [signed networks (not in 2023)](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
+   * [signed networks](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
    * [key figures social network](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
    * [collective motion](../collmot) project (Pedro Lacerda, Máté Nagy)
    * [networx (not in 2023)](../networx) project (Gergely Palla)
