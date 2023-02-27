@@ -257,5 +257,6 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 * Solid state physics:
 
    * [pybinding](../pybinding) project (László Oroszlány)
-   * [quadratic optimization](../quadratic_optim) project (Péter Rakyta)
+   * [quadratic optimization (not in 2023)](../quadratic_optim) project (Péter Rakyta)
+   * [quantum gate](../squander) project (Péter Rakyta)
 
