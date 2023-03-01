@@ -231,12 +231,13 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 
 * Hydrodynamics
 
-   * [hydrodynamics (not in 2023)](../hydrodynamics) project (István Csabai, András Biricz)
+   * [hydrodynamics](../hydrodynamics) project (István Csabai, András Biricz)
+   * [meteorology](../meteorology) project (István Csabai, András Biricz)
 
 * Statistical Physics, Network science
 
    * [signed networks](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
-   * [key figures social network](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
+   * [key figures in social network](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
    * [collective motion](../collmot) project (Pedro Lacerda, Máté Nagy)
    * [networx (not in 2023)](../networx) project (Gergely Palla)
    * [time evolving networks (not in 2023)](../time_evolving_networks) project (Péter Pollner)
