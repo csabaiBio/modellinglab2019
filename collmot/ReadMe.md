@@ -35,5 +35,5 @@ Important note: It would be prefered if you used Linux. Although the software sh
 2. Ákos, Z., Nagy, M., Leven, S., & Vicsek, T. (2010). Thermal soaring flight of birds and unmanned aerial vehicles. Bioinspiration & biomimetics, 5(4), 045003.
 3. Flack, A., Nagy, M., Fiedler, W., Couzin, I. D., & Wikelski, M. (2018). From local collective behavior to global migratory patterns in white storks. Science, 360(6391), 911-914.
 4. Nagy, M., Couzin, I. D., Fiedler, W., Wikelski, M., & Flack, A. (2018). Synchronization, coordination and collective sensing during thermalling flight of freely migrating white storks. Philosophical Transactions of the Royal Society B: Biological Sciences, 373(1746), 20170011.
-5. Nagy, M., Ákos, Z., Biro, D., & Vicsek, T. (2010). Hierarchical group dynamics in pigeon flocks. Nature, 464(7290), 890-893.
+5. Reddy, G., Celani, A., Sejnowski, T. J., & Vergassola, M. (2016). Learning to soar in turbulent environments. Proceedings of the National Academy of Sciences, 113(33), E4877-E4884.
 
