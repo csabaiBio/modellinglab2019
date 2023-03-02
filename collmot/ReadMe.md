@@ -1,6 +1,7 @@
 # Collective motion
 
 Study collective motion
+![Thermalling Example](thermal_example.png)
 
 ## Introduction
 In this project you will experiment with a simulation framework with the goal of generating flocks of soaring birds (such as storks or vultures) while flying in a atmospheric convective updraft (thermal).
