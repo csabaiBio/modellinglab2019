@@ -12,12 +12,12 @@ Important note: It would be prefered if you used Linux. Although the software sh
 
 ## Steps
 1. Install the simulation program and dependencies. Run the default config file. 
-* Download the repository from [CollectiveMotion-modellinglab](https://hal.elte.hu/gitea/placerda/CollectiveMotion-modellinglab): 
-  * git clone ssh://git@hal.elte.hu:2222/placerda/CollectiveMotion-modellinglab.git
+* Download the repository from [CollectiveMotion-modellinglab](https://github.com/PedroLacerdaELTE/CollectiveMotion-modellinglab): 
+  * git clone git@github.com:PedroLacerdaELTE/CollectiveMotion-modellinglab.git
   * Or 
   * Download the zip file on the top right: 
 * Prepare your virtual environment:
-  * Install python 3.9
+  * Install python **3.9**
   * Create and activate your virtual environment: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
   * Install dependencies: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#using-requirements-files
 * Copy config/default/bird_generate.default.yaml to config/bird_generate.yaml
