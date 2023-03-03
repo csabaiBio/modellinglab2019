@@ -13,9 +13,9 @@ Important note: It would be prefered if you used Linux. Although the software sh
 ## Steps
 1. Install the simulation program and dependencies. Run the default config file. 
 * Download the repository from [CollectiveMotion-modellinglab](https://hal.elte.hu/gitea/placerda/CollectiveMotion-modellinglab): 
-* * git clone
+* * git clone ssh://git@hal.elte.hu:2222/placerda/CollectiveMotion-modellinglab.git
 * * Or 
-* * Download the zip file from asasdasd: 
+* * Download the zip file on the top right: 
 * Prepare your virtual environment:
 * * Install python 3.9
 * * Create and activate your virtual environment: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
