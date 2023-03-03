@@ -12,7 +12,7 @@ Important note: It would be prefered if you used Linux. Although the software sh
 
 ## Steps
 1. Install the simulation program and dependencies. Run the default config file. 
-* Download the repository from asasdasd: 
+* Download the repository from [CollectiveMotion-modellinglab](https://hal.elte.hu/gitea/placerda/CollectiveMotion-modellinglab): 
 * * git clone
 * * Or 
 * * Download the zip file from asasdasd: 
