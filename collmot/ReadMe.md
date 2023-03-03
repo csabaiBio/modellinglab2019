@@ -13,16 +13,16 @@ Important note: It would be prefered if you used Linux. Although the software sh
 ## Steps
 1. Install the simulation program and dependencies. Run the default config file. 
 * Download the repository from [CollectiveMotion-modellinglab](https://hal.elte.hu/gitea/placerda/CollectiveMotion-modellinglab): 
-* * git clone ssh://git@hal.elte.hu:2222/placerda/CollectiveMotion-modellinglab.git
-* * Or 
-* * Download the zip file on the top right: 
+  * git clone ssh://git@hal.elte.hu:2222/placerda/CollectiveMotion-modellinglab.git
+  * Or 
+  * Download the zip file on the top right: 
 * Prepare your virtual environment:
-* * Install python 3.9
-* * Create and activate your virtual environment: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
-* * Install dependencies: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#using-requirements-files
+  * Install python 3.9
+  * Create and activate your virtual environment: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+  * Install dependencies: https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#using-requirements-files
 * Copy config/default/bird_generate.default.yaml to config/bird_generate.yaml
 * Check the installation by running the simulation with the default configurations: 
-* * python generate_flock.py config/bird_generate.yaml
+  * python generate_flock.py config/bird_generate.yaml
 2. Familiarize yourself with the basic parameters. Generate a number of flock using different parameters. Visualize your results
 3. Find differences and similarities from the generated trajectories
 4. Calculate metrics of thermalling success
