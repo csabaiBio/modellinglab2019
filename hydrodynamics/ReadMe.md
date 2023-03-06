@@ -26,6 +26,8 @@ Ideas:
 - https://github.com/openfoamtutorials/openfoam_tutorials
 - https://github.com/phresher/OpenFOAM_Tutorials_Plus
 - https://victorpozzobon.github.io/openfoam/
+- [youtube[(https://www.youtube.com/results?search_query=openfoam) OpenFoam demos
+- [Scientific articles](https://scholar.google.hu/scholar?start=10&q=openfoam&hl=en&as_sdt=0,5&as_ylo=2019) about or using OpenFoam
 
 Advanced:
 - OpenFOAM + machine learning: https://github.com/darshan315/flow_past_cylinder_by_DRL  , https://github.com/OFDataCommittee/OFMLHackathon
