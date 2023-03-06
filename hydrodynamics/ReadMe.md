@@ -30,5 +30,7 @@ Ideas:
 Advanced:
 - OpenFOAM + machine learning: https://github.com/darshan315/flow_past_cylinder_by_DRL  , https://github.com/OFDataCommittee/OFMLHackathon
 - [Square smoke ring](smokering) 
+
+
 ![image](https://github.com/csabaiBio/modellinglab2019/blob/master/hydrodynamics/smokering/hr-vortex%20(1).gif)
 
