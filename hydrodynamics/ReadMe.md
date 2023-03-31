@@ -8,7 +8,7 @@ Turbulence and in Problems with thermal energy and compressible fluids.
 
 - [Overview](http://csabai.web.elte.hu/http/simulationLab/jasakEtAlOpenFoam.pdf) (H. Jasak et al, International Workshop on Coupled Methods in Numerical Dynamics IUC, Dubrovnik, Croatia, September 19th-21st 2007)
 - The [concept](http://cfd.direct/openfoam/user-guide/applications/#x8-630003) of the OpenFOAM and its language. The full [User Guide](http://cfd.direct/openfoam/user-guide/).
--  [OpenFOAM tutorial](http://cfd.direct/openfoam/user-guide/tutorials/#x4-30002). These will be our first examples.
+-  [OpenFOAM tutorial](http://cfd.direct/openfoam/user-guide/tutorials/#x4-30002). These will be our first examples. There are more new tutorials [here](https://wiki.openfoam.com/index.php?title=Tutorials).
 
 
 ## Steps
