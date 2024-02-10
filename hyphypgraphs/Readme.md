@@ -4,7 +4,7 @@ Hypergraphs, consisting of nodes and hyperedges that can express not only pairwi
 
 Meanwhile, in the field of usual, simple graphs, the topic of geometric graphs is thriving. Networks generated on the hyperbolic (i.e., negatively curved) plane using distance-dependent connection probabilities between the nodes are known to successfully reproduce many graph properties that are often observed in real-world networks. One of them is [the presence of strong communities](https://www.nature.com/articles/s41598-021-93921-2) that automatically appear as angular sectors on the hyperbolic plane.
 
-<img width="1324" alt="S1_61comms_k5" src="S1_k5.png">
+<img width="1324" alt="S1_61comms_k5" src="S1_61comms_k5.png">
 
 *This figure shows a network generated on the hyperbolic plane by the* $\mathbb{S}^1/\mathbb{H}^2$ *[model](https://www.nature.com/articles/s41598-021-93921-2#Sec2). The colored communities were detected by the [k-clique percolation method](https://www.nature.com/articles/nature03607), which identifies a community as a union of all k-cliques (defined as complete subgraphs of k nodes) that can be reached from each other through a series of adjacent k-cliques (where adjacency means sharing k-1 nodes). The grey circles denote nodes assigned to more than one community at the same time (i.e., here different communities overlap). The white squares denote nodes that were not assigned to any community.*
 
