@@ -220,44 +220,48 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 
 # Course Summary:
 
-* Atomic physics
-
-   * [Molecular Dynamics](../MolecularDynamics) project (Dávid Visontai)
-   * [hoomd_blue (not in 2023)](../hoomd_blue) project (István Csabai, Gábor Rácz)
-
 * Astrophysics
 
    * [cosmology n body](../cosmology_n_body) project (István Csabai, Balázs Pál)
 
-* Hydrodynamics
-
-   * [hydrodynamics](../hydrodynamics) project (István Csabai, András Biricz)
-   * [meteorology](../meteorology) project (István Csabai, András Biricz)
-
 * Statistical Physics, Network science
 
-   * [signed networks](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
-   * [key figures in social network](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
-   * [collective motion](../collmot) project (Pedro Lacerda, Máté Nagy)
-   * [networx (not in 2023)](../networx) project (Gergely Palla)
-   * [time evolving networks (not in 2023)](../time_evolving_networks) project (Péter Pollner)
-   * [cellular automaton (not in 2023)](../cell_automata) project  (István Csabai, Péter Pollner)
+   * [collective motion](../collmot) project (Göksel Keksin, Máté Nagy)
+   * [hyper graphs](../hyphypgraphs) project (Bianka Kovács, Gergely Palla)
+   * [wsiproc](../wsiproc) project (Bendegúz Borkovits, Péter Pollner)
+   
+   * archive (not in 2024)
+     * [cellular automaton (not in 2024)](../cell_automata) project  (István Csabai, Péter Pollner)
+     * [networx (not in 2024)](../networx) project (Gergely Palla)
+     * [time evolving networks (not in 2024)](../time_evolving_networks) project (Péter Pollner)
+     * [key figures in social network (not in 2024)](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
+     * [signed networks (not in 2024)](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
 
 * Nuclear physics
 
    * [geant4](../nuclear_physics_geant4) project (Ákos Horváth)
 
+* Solid state physics:
+  
+   * [quantum gate](../squander) project (Péter Rakyta)
+   * archive  (not in 2024)
+     * [quadratic optimization (not in 2024)](../quadratic_optim) project (Péter Rakyta)
+     * * [pybinding (not in 2024](../pybinding) project (László Oroszlány)
+
+* Atomic physics
+
+   * [Molecular Dynamics (not in 2024)](../MolecularDynamics) project (Dávid Visontai)
+   * [hoomd_blue (not in 2024)](../hoomd_blue) project (István Csabai, Gábor Rácz)
+
+* Hydrodynamics
+
+   * [hydrodynamics (not in 2024)](../hydrodynamics) project (István Csabai, András Biricz)
+   * [meteorology (not in 2024)](../meteorology) project (István Csabai, András Biricz)
+
 * Materials science
 
-   * [ML in materials science (not in 2023)](../sdddst) project (Gábor Péterffy, Péter Ispánovity)
+   * [ML in materials science (not in 2024)](../sdddst) project (Gábor Péterffy, Péter Ispánovity)
 
 * Particle physics
 
-   * [HiggsSimulation (not in 2023)](../HiggsSimulation/HiggsSimulation.md) project (Gabriella Pásztor)
-
-* Solid state physics:
-
-   * [pybinding](../pybinding) project (László Oroszlány)
-   * [quadratic optimization (not in 2023)](../quadratic_optim) project (Péter Rakyta)
-   * [quantum gate](../squander) project (Péter Rakyta)
-
+   * [HiggsSimulation (not in 2024)](../HiggsSimulation/HiggsSimulation.md) project (Gabriella Pásztor)
