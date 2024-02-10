@@ -230,13 +230,6 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
    * [hyper graphs](../hyphypgraphs) project (Bianka Kovács, Gergely Palla)
    * [wsiproc](../wsiproc) project (Bendegúz Borkovits, Péter Pollner)
    
-   * archive (not in 2024)
-     * [cellular automaton (not in 2024)](../cell_automata) project  (István Csabai, Péter Pollner)
-     * [networx (not in 2024)](../networx) project (Gergely Palla)
-     * [time evolving networks (not in 2024)](../time_evolving_networks) project (Péter Pollner)
-     * [key figures in social network (not in 2024)](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
-     * [signed networks (not in 2024)](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
-
 * Nuclear physics
 
    * [geant4](../nuclear_physics_geant4) project (Ákos Horváth)
@@ -244,9 +237,9 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 * Solid state physics:
   
    * [quantum gate](../squander) project (Péter Rakyta)
-   * archive  (not in 2024)
-     * [quadratic optimization (not in 2024)](../quadratic_optim) project (Péter Rakyta)
-     * * [pybinding (not in 2024](../pybinding) project (László Oroszlány)
+   * [DFT_VASP](../DFT_VASP) project (Viktor Ivády)
+
+------------
 
 * Atomic physics
 
@@ -265,3 +258,16 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 * Particle physics
 
    * [HiggsSimulation (not in 2024)](../HiggsSimulation/HiggsSimulation.md) project (Gabriella Pásztor)
+
+* Solid state physics:
+  
+   * [quadratic optimization (not in 2024)](../quadratic_optim) project (Péter Rakyta)
+   * [pybinding (not in 2024](../pybinding) project (László Oroszlány)
+
+* Statistical Physics, Network science
+  
+   * [cellular automaton (not in 2024)](../cell_automata) project  (István Csabai, Péter Pollner)
+   * [networx (not in 2024)](../networx) project (Gergely Palla)
+   * [time evolving networks (not in 2024)](../time_evolving_networks) project (Péter Pollner)
+   * [key figures in social network (not in 2024)](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
+   * [signed networks (not in 2024)](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
