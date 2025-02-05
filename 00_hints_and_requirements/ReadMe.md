@@ -31,7 +31,7 @@ Do not use capital letters, spaces, accents or any special characters but _ in y
 
 ### Cover letter (only for the midterm and final)
 
-Write a short cover letter when submitting your work and upload it into [moodle](https://moodle.elte.hu/). It has to be concise, but include keywords like the title of the course and the title of your project. It should be in a letter form with your name, the address of the university, salutation and closing. Write a short summary about your work: what are the 2-3 most important results/conclusions what you have learned and what can be interesing for an external reader. Summarize shortly the list of files, what you have uploaded to the github repository. 
+Write a short cover letter when submitting your work and upload it into [moodle](https://moodle4.elte.hu/). It has to be concise, but include keywords like the title of the course and the title of your project. It should be in a letter form with your name, the address of the university, salutation and closing. Write a short summary about your work: what are the 2-3 most important results/conclusions what you have learned and what can be interesing for an external reader. Summarize shortly the list of files, what you have uploaded to the github repository. 
 
 An average cover letter is a half din A4 page long, but it never should be longer than one page with all formal parts.
 
@@ -226,7 +226,7 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 
 * Statistical Physics, Network science
 
-   * [collective motion](../collmot) project (Göksel Keksin, Máté Nagy)
+   * [collective motion](../collmot) project (András Zábó, Máté Nagy)
    * [hyper graphs](../hyphypgraphs) project (Bianka Kovács, Gergely Palla)
    * [wsiproc](../wsiproc) project (Bendegúz Borkovits, Péter Pollner)
    
@@ -237,7 +237,7 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 * Solid state physics:
   
    * [quantum gate](../squander) project (Péter Rakyta)
-   * [DFT_VASP](../DFT_VASP) project (Viktor Ivády)
+   * [Tight-Binding_sisl](../tightbinding) project (Zoltán Tajkov)
 
 ------------
 
@@ -262,7 +262,8 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 * Solid state physics:
   
    * [quadratic optimization (not in 2024)](../quadratic_optim) project (Péter Rakyta)
-   * [pybinding (not in 2024](../pybinding) project (László Oroszlány)
+   * [pybinding (not in 2024)](../pybinding) project (László Oroszlány)
+   * [DFT_VASP  (not in 2024)](../DFT_VASP) project (Viktor Ivády)
 
 * Statistical Physics, Network science
   
