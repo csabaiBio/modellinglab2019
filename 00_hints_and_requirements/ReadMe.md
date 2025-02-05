@@ -4,7 +4,7 @@ The _Scientific Modelling Computer Lab_ is a project-based course aimed at last 
 
 ![comp_mod.png](comp_mod.png)
 
-The semester is going to consist of one project. Students work individually based on the recommended readings and materials. There is a possibility of contacting the lecturer and the project leader for help. For each lab meeting, students have to create a progress report and upload it to the course website in [Moodle](https://moodle.elte.hu/course/view.php?id=33947). The deadlines are set on a weekly basis to encurage continuous work. 
+The semester is going to consist of one project. Students work individually based on the recommended readings and materials. There is a possibility of contacting the lecturer and the project leader for help. For each lab meeting, students have to create a progress report and upload it to the course website in [Moodle](https://moodle4.elte.hu/course/view.php?id=10159)). The deadlines are set on a weekly basis to encurage continuous work. 
 
 Besides the weekly reports, one review report should be submitted at the middle of the semester and one final report at the end of the semester.
 
@@ -136,7 +136,7 @@ Place as little text on your slides as possible. Only key terms, ideas and formu
 When using notebooks or other commented source codes for presenting your results, provide the appropriate URL, which points to the repository (github, kooplex-edu etc), where your code and
 results can be immediately seen after clicking on the link.
 
-Always upload your work to the [moodle](https://moodle.elte.hu/course/view.php?id=21135) system.
+Always upload your work to the [moodle](https://moodle4.elte.hu/course/view.php?id=10159) system.
 
 #### Deadlines
 
