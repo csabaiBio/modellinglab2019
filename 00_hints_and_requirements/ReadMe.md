@@ -243,32 +243,32 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 
 * Atomic physics
 
-   * [Molecular Dynamics (not in 2024)](../MolecularDynamics) project (Dávid Visontai)
-   * [hoomd_blue (not in 2024)](../hoomd_blue) project (István Csabai, Gábor Rácz)
+   * [Molecular Dynamics (not in this year)](../MolecularDynamics) project (Dávid Visontai)
+   * [hoomd_blue (not in this year)](../hoomd_blue) project (István Csabai, Gábor Rácz)
 
 * Hydrodynamics
 
-   * [hydrodynamics (not in 2024)](../hydrodynamics) project (István Csabai, András Biricz)
-   * [meteorology (not in 2024)](../meteorology) project (István Csabai, András Biricz)
+   * [hydrodynamics (not in this year)](../hydrodynamics) project (István Csabai, András Biricz)
+   * [meteorology (not in this year)](../meteorology) project (István Csabai, András Biricz)
 
 * Materials science
 
-   * [ML in materials science (not in 2024)](../sdddst) project (Gábor Péterffy, Péter Ispánovity)
+   * [ML in materials science (not in this year)](../sdddst) project (Gábor Péterffy, Péter Ispánovity)
 
 * Particle physics
 
-   * [HiggsSimulation (not in 2024)](../HiggsSimulation/HiggsSimulation.md) project (Gabriella Pásztor)
+   * [HiggsSimulation (not in this year)](../HiggsSimulation/HiggsSimulation.md) project (Gabriella Pásztor)
 
 * Solid state physics:
   
-   * [quadratic optimization (not in 2024)](../quadratic_optim) project (Péter Rakyta)
-   * [pybinding (not in 2024)](../pybinding) project (László Oroszlány)
-   * [DFT_VASP  (not in 2024)](../DFT_VASP) project (Viktor Ivády)
+   * [quadratic optimization (not in this year)](../quadratic_optim) project (Péter Rakyta)
+   * [pybinding (not in this year)](../pybinding) project (László Oroszlány)
+   * [DFT_VASP  (not in this year)](../DFT_VASP) project (Viktor Ivády)
 
 * Statistical Physics, Network science
   
-   * [cellular automaton (not in 2024)](../cell_automata) project  (István Csabai, Péter Pollner)
-   * [networx (not in 2024)](../networx) project (Gergely Palla)
-   * [time evolving networks (not in 2024)](../time_evolving_networks) project (Péter Pollner)
-   * [key figures in social network (not in 2024)](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
-   * [signed networks (not in 2024)](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
+   * [cellular automaton (not in this year)](../cell_automata) project  (István Csabai, Péter Pollner)
+   * [networx (not in this year)](../networx) project (Gergely Palla)
+   * [time evolving networks (not in this year)](../time_evolving_networks) project (Péter Pollner)
+   * [key figures in social network (not in this year)](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
+   * [signed networks (not in this year)](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
