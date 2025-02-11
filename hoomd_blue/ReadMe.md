@@ -4,7 +4,7 @@ Here you can experiment with the HOOMD-blue simulator for molecular dynamics.
 
 ## Steps
 
-1. Install the [package](http://codeblue.umich.edu/hoomd-blue/). We recommend to use the python conda package manager. Try all sections in the Tutorial.ipynb!
+1. Install the [package](https://github.com/glotzerlab/hoomd-blue). We recommend to use the python conda package manager. Try all sections in the Tutorial.ipynb!
 Try to visualize the output with `matplotlib` and `fresnel`.
 
 2. Select one example from this [overview](http://mug.mvapich.cse.ohio-state.edu/static/media/mug/presentations/2014/glaser.pdf) or the [tutorials](https://hoomd-blue.readthedocs.io/en/latest/tutorials.html) and reproduce it!
