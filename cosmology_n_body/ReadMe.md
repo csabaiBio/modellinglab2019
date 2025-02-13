@@ -11,7 +11,7 @@ The goals of this project are diverse. The first one is to learn the usual proce
 
 ## Recommended steps for the project
 
-1. Install a local version of [GIZMO](https://bitbucket.org/phopkins/gizmo-public/src/master/) and [GADGET-4](https://gitlab.mpcdf.mpg.de/vrs/gadget4) along with its dependencies listed in their tutorials. (The dependencies should entirely overlap and their installation should be almost identical.) You can find the GIZMO tutorial [here](http://www.tapir.caltech.edu/~phopkins/Site/GIZMO_files/gizmo_documentation.html#tutorial), while the GADGET-4 tutorial [here](https://wwwmpa.mpa-garching.mpg.de/gadget4/gadget4_manual.pdf).
+1. Install a local version of [GIZMO](https://bitbucket.org/phopkins/gizmo-public/src/master/) and [GADGET-4](https://gitlab.mpcdf.mpg.de/vrs/gadget4) along with its dependencies listed in their tutorials. (The dependencies should entirely overlap and their installation should be almost identical.) You can find the GIZMO tutorial [here](http://www.tapir.caltech.edu/~phopkins/Site/GIZMO_files/gizmo_documentation.html#tutorial), while the GADGET-4 tutorial [here](https://masterdesky.github.io/blog/astro/sim/gadget4-install).
 
 2. Set up the configuration file for a [test problem](http://www.tapir.caltech.edu/~phopkins/Site/GIZMO_files/gizmo_documentation.html#tests) provided with the GIZMO code, recompile the software with this new configuration and run any selected test problem.
 
