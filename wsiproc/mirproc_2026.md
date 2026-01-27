@@ -27,7 +27,7 @@ Could it be that surrounding tumour boundaries within a tissue sample sits perfe
 ## 3. Project outline
 
 1. Data access and handling:
-   - Download the dataset from https://zenodo.org/records/17790337. Beside the MIR data it contains Whole Slide Images that can be used to display data in presentations.
+   - Download the dataset from  https://doi.org/10.5281/zenodo.17790337. Beside the MIR data it contains Whole Slide Images that can be used to display data in presentations.
    - Familiarize yourself with the dataset. Example notebooks are here: https://github.com/borbende/Colorectal_cancer_dataset_MIR_spectroscopy_and_WSIs.
    - To understand the data you are using, study these two short articles: https://doi.org/10.1002/cem.3542, https://doi.org/10.1007/s00292-025-01502-1.
    - Create summary figures to showcase MIR data: some random spectra, spectral heatmap, background spectra,...
@@ -60,7 +60,7 @@ Could it be that surrounding tumour boundaries within a tissue sample sits perfe
 
 
 ## 4. Pointers, useful links
-- MIR dataset: https://zenodo.org/records/17790337
+- MIR dataset:  https://doi.org/10.5281/zenodo.17790337
 - MIR GitHUb repository: https://github.com/borbende/Colorectal_cancer_dataset_MIR_spectroscopy_and_WSIs
 - openslide-python documentation: https://openslide.org/api/python/
 - A useful tutorial for openslide-python: https://www.youtube.com/watch?v=QntLBvUZR5c
