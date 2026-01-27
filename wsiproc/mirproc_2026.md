@@ -17,30 +17,52 @@ The goal of this project is to deduce which spectra affects classification negat
 Could it be that surrounding tumour boundaries within a tissue sample sits perfectly normal and non-cancerous tissue that was mislabelled as cancerous because of the global labels?
 
 
+## 2. Requirements:
 
-Requirements: Python coding, knowledge of data analysis tools and models from Scikit-learn and PyTorch.
-
-
-
-## 2. Project outline
-
-1. Install openslide-python and familiarise yourself with its features and with its connection to other packages. Specifically, check its ability to patch a WSI. (The package has some basic WSIs that you can use.)
-2. Explore your options for data acquisition. Download some whole slide images and explore their pyramid structure with openslide-python. Make sure to get slides with different tissues on them (liver, stomach, intestine, etc.) or multiple WSIs with differing tissue types. The latter might be the easier option as proper annotations are hard to come by. Find the optimal zoom level for the images in openslide. (Be creative!)
-3. Create patches at the optimal zoom level. Use tiles that contain an agreeable amount of tissue data instead of blank space, while dropping all empty patches. Create a dataset that consist of patches of the different classes of tissue types. Choose 3 different patch sizes (like 256, 512, 1024, etc.) to monitor the amount of information gained. In the end you should have 3 separate dataclusters with each containing all the patches you generated at a given pixel size. Keep it simple and don't use overlapping patches! Try to keep the classes balanced! How many images you should create per class?
-4. Choose three different embedding generators. Recommendations: one should be a ResNet model, one a Vision transformer (UNI), and choose any other from the list on this page under "Classification" https://pytorch.org/vision/main/models.html . Keep it simple and use ImageNet weights. Convert all patches into embeddings and organize them into a new dataset. Don't forget to keep track of the labels!
-5. Start to compare the embeddings. First, use simple methods: compare their length, pair them up and compute things like the Euclidean distance, Cosine similarity, etc. (Be creative!) Then, create heatmaps from larger tissue spaces covered by embeddings and put them beside the same area on the WSI. Did we get back some structural information visually apart from just the edges? Do this for all 3 datasets (patch sizes) and put them next to each other.
-6. Perform unsupervised learning methods on the embeddings. Use the following methods: Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), t-Disctributed Stochastic Neighbour Embedding (tSNE), Uniform Manifold Approximation and Projection (UMAP). Keep track of the classes visually by adjusting the color scheme and plot meaningful, easy to read figures. In the end, it is enough to display the one method that shows the most interesting behaviour across all 3 patch sizes.
-7. Perform K-Means clustering on the embeddings. The task is the same as in the previous step with one exception. Stick to only one patch size. It should be the one that yielded the best results in the previous step.
-8. Final task: checking the infulence the differing nature of the embeddings has on the efficiency of a supervised learning model. Keep it simple, fast and accurate with XGBoost Classifier. Build a classification framework around this model. For accuracy metrics, stick to basics: overall accuracy, AUROC, confusion matrix. Do 5-fold cross-validation. Use Stratified 5-Fold without shuffling to not only keep the classes balanced during splits but also make sure that you have the same indices in a fold across all 3 embedding types. (You might need to set the random_seed the same for all 3.) This means you need to run the cross-validation 1 time for all 3 embedding types, meaning 15 runs altogether. At the end of the cross-validations make a plot which contains the mean +/ std confusion matrix and the mean ROC curve. A boxplot can be useful from the results as well.
-9. Draw your conclusions! Does it matter which embedding generator we use for the task at hand?
+- Python coding: pandas, matplotlib, sklearn, ...
+- Having attended the Data mining and machine learning course (strongly recommended)
+- Weekly mandatory consultations (can be online, but fixed timing)
 
 
-## 3. Pointers, useful links
-- Option to download whole slide images: https://portal.gdc.cancer.gov/
-- Alternative download source: https://www.cancerimagingarchive.net/collection/ovarian-bevacizumab-response/
+## 3. Project outline
+
+1. Data access and handling:
+   - Download the dataset from https://zenodo.org/records/17790337. Beside the MIR data it contains Whole Slide Images that can be used to display data in presentations.
+   - Familiarize yourself with the dataset. Example notebooks are here: https://github.com/borbende/Colorectal_cancer_dataset_MIR_spectroscopy_and_WSIs.
+   - To understand the data you are using, study these two short articles: https://doi.org/10.1002/cem.3542, https://doi.org/10.1007/s00292-025-01502-1.
+   - Create summary figures to showcase MIR data: some random spectra, spectral heatmap, background spectra,...
+2. Data cleaning and building an ML dataset
+   - Convert spectra from transmittance to absorbance. (Beer-lambert law)
+   - Normalize. (Standard normal variate)
+   - Get the sample IDs, cancer labels and patient IDs from the metadata .csv files. Combine them with your spectra upon loading!
+   - Study and use the background spectrum removal process displayed in one of the example notebooks. Remove all background spectra! Does this removal produce the same result every time?
+   - The task is binary classification (NC vs CRC). Filter the dataset down to the relevant classes. Display class distributions: number of spectra, number of tissue samples, number of patients, number of overlapping patients.
+   - Create 5 train-test splits for 5-fold cross-validation. A patient cannot have data in both the train and the test set! Likewise, a sample must have data only in one of the two sets! Also, classes should be at least somewhat balanced. Hint: StratifiedGroupKFold().
+   - Define an XGBoostClassifier for binary classification. Simply test if it runs on a fold. Why did we choose XGBoost?
+3. Perform the 5-fold cross-validation with the XGBoost model:
+   - Run the model for all folds separately.
+   - Display the confusion matrix for the test sets and the AUROC curve.
+   - The efficiency metrics are: overall accuracy, AUROC score, sensitivity, specificity. What are these? What are their ranges? How do you define the latter two in our case?
+   - Display a summary table of the metrics in an aggregated form: mean values and confidence intervals. Be prepared to explain your results!
+   - Congratulations! You have reproduced the results using the global labels!
+   - Bonus: use SHAP to check which features (wavenumbers) were the most important.
+4. Sample selection:
+   - Just in case, remove the CO2 peak from all spectra and check the difference in results.
+   - Run the models again and highlight the spectra in the test sets that were misclassified.
+   - Does removing all these spectra from training and testing perfects the model?
+   - Collect these spectra and display them. Where are their position on the heatmaps compared to correctly classified ones?
+   - Compare them with each other and with correctly classified spectra using metrics such as correlation and other vector similarity metrics.
+   - Compare them within certain spectral regions. Could a certain region contain all variability or is it spread out?
+5. Final tasks:
+   - Create a GitHub repository to store your project in. All code should have proper documentation: comments, markdown cells,... Create a well-organized README.md file.
+   - Draw your conclusions! Could you recreate the inner structure of the tissue samples?
+   - Have a slide on multiple instance learning (MIL). Would that help with our problem?
+
+
+## 4. Pointers, useful links
+- MIR dataset: https://zenodo.org/records/17790337
+- MIR GitHUb repository: https://github.com/borbende/Colorectal_cancer_dataset_MIR_spectroscopy_and_WSIs
 - openslide-python documentation: https://openslide.org/api/python/
-- Whole Slide Imaging in Pathology: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7522141/
 - A useful tutorial for openslide-python: https://www.youtube.com/watch?v=QntLBvUZR5c
+- MIR articles: https://doi.org/10.1002/cem.3542, https://doi.org/10.1007/s00292-025-01502-1.
 - A useful article on embeddings: https://arxiv.org/abs/2307.05610
-- A few good blogposts about embeddings: https://zilliz.com/learn/image-embeddings-for-enhanced-image-search, https://medium.com/@uday.chitragar/understanding-embeddings-in-image-analysis-c87b795cef60
-- UNI embedder: https://huggingface.co/MahmoodLab/UNI
