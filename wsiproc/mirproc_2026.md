@@ -36,24 +36,28 @@ Could it be that surrounding tumour boundaries within a tissue sample sits perfe
    - Normalize. (Standard normal variate)
    - Get the sample IDs, cancer labels and patient IDs from the metadata .csv files. Combine them with your spectra upon loading!
    - Study and use the background spectrum removal process displayed in one of the example notebooks. Remove all background spectra! Does this removal produce the same result every time?
+3. Machine learning basics
    - The task is binary classification (NC vs CRC). Filter the dataset down to the relevant classes. Display class distributions: number of spectra, number of tissue samples, number of patients, number of overlapping patients.
    - Create 5 train-test splits for 5-fold cross-validation. A patient cannot have data in both the train and the test set! Likewise, a sample must have data only in one of the two sets! Also, classes should be at least somewhat balanced. Hint: StratifiedGroupKFold().
-   - Define an XGBoostClassifier for binary classification. Simply test if it runs on a fold. Why did we choose XGBoost?
-3. Perform the 5-fold cross-validation with the XGBoost model:
+   - Define an XGBoostClassifier for binary classification. Simply test if it runs on a fold. Why did we choose XGBoost? Are there memory issues during data loading?
+4. Optimization
+   - The entire dataset is about 10 GBs, which can cause memory problems during data loading. Discover methods in the XGBoost package to mitigate this issue: DMatrix, streaming for training, or alternate pandas-like packages e. g. polars.
+   - Try handling data directly from hard drive. (libsvm)
+5. Perform the 5-fold cross-validation with the XGBoost model:
    - Run the model for all folds separately.
-   - Display the confusion matrix for the test sets and the AUROC curve.
+   - Display the confusion matrices for the test sets and the AUROC curves.
    - The efficiency metrics are: overall accuracy, AUROC score, sensitivity, specificity. What are these? What are their ranges? How do you define the latter two in our case?
    - Display a summary table of the metrics in an aggregated form: mean values and confidence intervals. Be prepared to explain your results!
    - Congratulations! You have reproduced the results using the global labels!
    - Bonus: use SHAP to check which features (wavenumbers) were the most important.
-4. Sample selection:
-   - Just in case, remove the CO2 peak from all spectra and check the difference in results.
+6. Sample selection:
+   - Just in case, remove the CO2 peak from all spectra and check the difference in the results. You may need to use interpolation.
    - Run the models again and highlight the spectra in the test sets that were misclassified.
    - Does removing all these spectra from training and testing perfects the model?
    - Collect these spectra and display them. Where are their position on the heatmaps compared to correctly classified ones?
    - Compare them with each other and with correctly classified spectra using metrics such as correlation and other vector similarity metrics.
    - Compare them within certain spectral regions. Could a certain region contain all variability or is it spread out?
-5. Final tasks:
+7. Final tasks:
    - Create a GitHub repository to store your project in. All code should have proper documentation: comments, markdown cells,... Create a well-organized README.md file.
    - Draw your conclusions! Could you recreate the inner structure of the tissue samples?
    - Have a slide on multiple instance learning (MIL). Would that help with our problem?
