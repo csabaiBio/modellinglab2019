@@ -4,18 +4,18 @@ The _Scientific Modelling Computer Lab_ is a project-based course aimed at last 
 
 ![comp_mod.png](comp_mod.png)
 
-The semester is going to consist of one project. Students work individually based on the recommended readings and materials. There is a possibility of contacting the lecturer and the project leader for help. For each lab meeting, students have to create a progress report and upload it to the course website in [Moodle](https://moodle4.elte.hu/course/view.php?id=10159)). The deadlines are set on a weekly basis to encurage continuous work. 
+The semester is going to consist of one project. Students work individually based on the recommended readings and materials. There is a possibility of contacting the lecturer and the project leader for help. For each lab meeting, students have to create a progress report and upload it to the course website in [Moodle](https://moodle4.elte.hu/course/view.php?id=16382)). The deadlines are set on a biweekly basis to encurage continuous work. 
 
-Besides the weekly reports, one review report should be submitted at the middle of the semester and one final report at the end of the semester.
+Besides the biweekly reports, one review report should be submitted at the middle of the semester and one final report at the end of the semester.
 
 Requirements of the reports and the grading system is decribed below. These guidelines for the final report are quite similar to that of a journal submission, and they are designed to give students some foundations also in academic writing and the presentation of their own results. Hints for the progress reports are according to
-scientific project reports. Nowadays, most scientists and employees are working supported from various projects with strict deadlines and reviews. The midterm/weekly reports prepare students
+scientific project reports. Nowadays, most scientists and employees are working supported from various projects with strict deadlines and reviews. The midterm/biweekly reports prepare students
 for appropriate time management and consize presentation of results about they work in progress. Such reports are helpful for collecting feedback, showcasing problems and discussing possible
 workarounds.
 
 Students are encouraged to sumbit their work in LaTeX. An example LaTeX file bundle is given ([LaTeX template](template.tex), [references in BibTex](sample.bib), [sample figure](ising.png), [resulting pdf](template.pdf)). You can easily prepare your document using online latex editors like overleaf or jupyterlab at [k8plex-edu](https://k8plex-edu.elte.hu/notebook/crrd9e-tudmodlab/lab). Working with latex on kooplex-edu requires activating TeX and LaTeX related Nbextensions. 
 
-At the end of the course, there will be a mini-conference from these presentations with time for thoughts and questions.
+At the end of the course, there will be a mini-conference (presentation of final reports) from these presentations with time for thoughts and questions.
 
 ## Report and Presentation Guidelines (biweekly, midterm and final)
 
@@ -136,18 +136,18 @@ Place as little text on your slides as possible. Only key terms, ideas and formu
 When using notebooks or other commented source codes for presenting your results, provide the appropriate URL, which points to the repository (github, kooplex-edu etc), where your code and
 results can be immediately seen after clicking on the link.
 
-Always upload your work to the [moodle](https://moodle4.elte.hu/course/view.php?id=10159) system.
+Always upload your work to the [moodle](https://moodle4.elte.hu/course/view.php?id=16382) system.
 
 #### Deadlines
 
 The deadlines by which project reports must be sent in will be presented in Moodle. Take them seriously. You will have a deadline for each second week, so you will be used to upload your report in time, when the time comes for sending in the midterm and the final report.
 
-Biweekly reports will be presented during the lab meetings. Presentations of mid term progress reports are due in 7. week (announced in Moodle), and we close the semester with the 
+Biweekly reports will be presented during the lab meetings. Presentations of mid term progress reports are due when announced in Moodle, and we close the semester with the 
 presentations of the final reports. 
 
 # Grading
 
-During the semester, there will be 4 weekly reports, each of them are worth 2 points. The mid term progress report and the final report are worth of 20 points both.
+During the semester, there will be 4 biweekly reports, each of them are worth 2 points. The mid term progress report and the final report are worth of 20 points both.
 Mid term and final presentations are 20 and 20 points.
 
 ## Algorithm of your grade
@@ -207,7 +207,7 @@ Grading will happen on a basis of 100 points.
 
 Your semester project can be accepted only if you have submitted each biweekly report and presentation. If there is at least one presentation or one report missing, your points for the midterm and final reports and presentations will be cancelled.
 
-## Additional guidelines for midterm presentation and weekly reports/presentations
+## Additional guidelines for midterm presentation and biweekly reports/presentations
 
 The same rules apply for these type of presentations as for the final one. The only difference is, that you have no final results yet, instead, you should present your progress,
 summarize your problems (if any), and sketch your plans for the next period. Starting with presenting your full time schedule is a good idea, where you can point out, whether your work
@@ -226,18 +226,16 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
 
 * Statistical Physics, Network science
 
-   * [collective motion](../collmot) project (András Zábó, Máté Nagy)
-   * [hyper graphs](../hyphypgraphs) project (Bianka Kovács, Gergely Palla)
-   * [wsiproc](../wsiproc) project (Bendegúz Borkovits, Péter Pollner)
+   * [collective motion](../collmot) project (Zoltán Szarvas, Máté Nagy)
    
 * Nuclear physics
 
    * [geant4](../nuclear_physics_geant4) project (Ákos Horváth)
 
-* Solid state physics:
+* Physics in medicine:
   
-   * [quantum gate](../squander) project (Péter Rakyta)
-   * [Tight-Binding_sisl](../tightbinding) project (Zoltán Tajkov)
+   * [wsiproc](../wsiproc) project (Bendegúz Borkovits, Péter Pollner)
+   * [fractmed](../fractmed) project (János Báskay)
 
 ------------
 
@@ -264,6 +262,8 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
    * [quadratic optimization (not in this year)](../quadratic_optim) project (Péter Rakyta)
    * [pybinding (not in this year)](../pybinding) project (László Oroszlány)
    * [DFT_VASP  (not in this year)](../DFT_VASP) project (Viktor Ivády)
+   * [quantum gate (not in this year)](../squander) project (Péter Rakyta)
+   * [Tight-Binding_sis (not in this year)l](../tightbinding) project (Zoltán Tajkov)
 
 * Statistical Physics, Network science
   
@@ -272,3 +272,4 @@ Nowadays, online meetings and conferences are becoming more common. Some times y
    * [time evolving networks (not in this year)](../time_evolving_networks) project (Péter Pollner)
    * [key figures in social network (not in this year)](../counter_rad) project (Gergely Palla, Bendegúz Sulyok)
    * [signed networks (not in this year)](../signed_networks) project (Peter Pollner, Bogdán Asztalos)
+   * [hyper graphs (not in this year)](../hyphypgraphs) project (Bianka Kovács, Gergely Palla)
