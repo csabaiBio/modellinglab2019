@@ -29,6 +29,10 @@ Submit all text files to the moodle repository of the lab in source code and the
 
 Do not use capital letters, spaces, accents or any special characters but _ in your filenames!
 
+### Using AI in your work, presentation and report
+
+You are allowed (and advised) to use AI tools for your work. You should be familiar with these tools, how to use them and be aware of their pros and cons when you work with them. You must **include an appendix** section in your reports, where you document, which AI models you have used (name and url), and all the prompts that you have typed. Add a subsection to this appendix, which concludes the advantages and problems you have experienced during your work. If you are using a complex environment (e.g. in vscode or in any tools), describe them as detailed as possible. You must upload **to each presentation a source code bundle** that containes all settings, instructions, prompts etc that are required for reproducing your results with the AI tool. We plan to share these source codes among the students of this course, so they can learn from your tricks and issues. Be careful with your tokens or passwords, when you prepare these source codes. All your **presentation must be finished with an "AI usage" slide**, where you summarize your last experiences.
+
 ### Cover letter (only for the midterm and final)
 
 Write a short cover letter when submitting your work and upload it into [moodle](https://moodle4.elte.hu/). It has to be concise, but include keywords like the title of the course and the title of your project. It should be in a letter form with your name, the address of the university, salutation and closing. Write a short summary about your work: what are the 2-3 most important results/conclusions what you have learned and what can be interesing for an external reader. Summarize shortly the list of files, what you have uploaded to the github repository. 
